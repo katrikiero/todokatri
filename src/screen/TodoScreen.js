@@ -78,7 +78,8 @@ const TodoScreen = () => {
           {item.title}
         </Text>
 
-        <IconButton icon="checkbox-blank-outline" color="#23255d" size={20} />
+{/* Myöhempää käyttöä varten <IconButton icon="checkbox-blank-outline" color="#23255d" size={20} /> */}
+        
         <IconButton
           icon="pencil"
           color="#23255d"
