@@ -35,7 +35,7 @@ This file defines a React component TodoScreen which is a simple todo list appli
 
 Currently the app is using inline styles and that´s why styles object is currently empty, but it can be used to define styles for the components.
 
-## Exports
+### Exports
 
 The TodoScreen component is the default export of this file.
 
