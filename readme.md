@@ -1,5 +1,24 @@
 # Todo Katri is my first React Native App
 
+´´´mermaid
+graph LR
+    A[1. versio inline style, ei tietokantaa] -->
+    B[2. versio theme.js tyylitiedostolla]  -->
+    C[3. versio tietokannalla] -->
+    E[4. versio jakeluun]
+´´´
+
+├── App.js
+├── app.json
+├── assets
+├── babel.config.js
+├── node_modules
+├── package-lock.json
+├── package.json
+├── readme.md
+└── src
+
+
 ## TodoScreen.js
 
 This file defines a React component TodoScreen which is a simple todo list application. It doesn´t have any database yet. It uses React Native for the UI and react-native-paper for some UI components.
