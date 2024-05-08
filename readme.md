@@ -1,23 +1,37 @@
-# Todo Katri is my first React Native App
+# todokatri (nakittaja) is my first React Native App
 
-´´´mermaid
-graph LR
-    A[1. versio inline style, ei tietokantaa] -->
-    B[2. versio theme.js tyylitiedostolla]  -->
-    C[3. versio tietokannalla] -->
-    E[4. versio jakeluun]
-´´´
+Learning React Native development by making a to do app from scratch. I have used several sources for learning, like Full Stack Open course, YouTube, Copilot and tons of other resources.
 
+## Progress
+
+```mermaid
+flowchart LR
+    A -- Done (1: inline style, no database) -->
+    B(2: theme.js styling)  -->
+    C(3: With database) -->
+    D(4: Ready)
+```
+## Folder structure, first phase
+```
+todokatri
 ├── App.js
 ├── app.json
 ├── assets
+│   │   adaptive_icon.png
+│   │   icon.png
+│   │   nakittaja_logo.png
+│   └── splash.png
 ├── babel.config.js
 ├── node_modules
 ├── package-lock.json
 ├── package.json
 ├── readme.md
 └── src
-
+    └── components
+    │   └── Fallback.js
+    └── screen
+        └── TodoScreen.js
+```
 
 ## TodoScreen.js
 
