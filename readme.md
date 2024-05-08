@@ -2,14 +2,14 @@
 
 Learning React Native development by making a to do app from scratch. I have used several sources for learning, like Full Stack Open course, YouTube, Copilot and tons of other resources.
 
-## Progress
+## Progress and development versions
 
 ```mermaid
 flowchart LR
-    A -- Done (1: inline style, no database) -->
-    B(2: theme.js styling)  -->
-    C(3: With database) -->
-    D(4: Ready)
+    Start -- Done (1. inline style, no database) --> 
+    B(2. seperate stylesheet)  -->
+    C(3. With database) -->
+    D(4. Ready)
 ```
 ## Folder structure, first phase
 ```
